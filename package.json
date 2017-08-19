@@ -1,0 +1,19 @@
+{
+  "name": "courses_real-time-web-with-node-js",
+  "version": "1.0.0",
+  "description": "Code School Free Weekend - Course Real Time Web With Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thamys/courses_real-time-web-with-node-js.git"
+  },
+  "author": "Thamyres Guedes (https://github.com/thamys)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thamys/courses_real-time-web-with-node-js/issues"
+  },
+  "homepage": "https://github.com/thamys/courses_real-time-web-with-node-js#readme"
+}
