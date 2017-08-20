@@ -1,5 +1,12 @@
 var fs = require('fs');
-var file = fs.createReadStream('readme.md');
-var newFile = fs.createWriteStream('readme_copy.md');
+var http = require('http');
 
-file.pipe(newFile);
+http.createServer(function(request, response){
+    var newFile = fs.createWriteStream('readme_copy.md');
+    request.pipe(newFile);
+
+    request.on('end', function(){
+        response.end('Uploaded!');
+    });
+}).listen(8080);
+    
